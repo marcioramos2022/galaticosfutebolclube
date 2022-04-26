@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.Moda-1-hex { color: #1A3873; }
+.Moda-2-hex { color: #2E9AA6; }
+.Moda-3-hex { color: #D9BBA0; }
+.Moda-4-hex { color: #BF8D7A; }
+.Moda-5-hex { color: #8C5A4F; }
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkkhaki;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #bf8e7a65;
+    min-height: 150px;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    color: white;
+    padding: 20px;
+}
+
+header h2 {
+    color: white;
+}
+
+nav {
+    background-color: #bf8e7a8c;
+    padding: 10px;
+    box-shadow: 0px 7px 7p rgba(25, 178, 25, 0.475);
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: solid;
+    font-weight: bolder;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: rgb(171, 150, 190);
+    color: rgb(209, 6, 6);
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(25, 178, 25, 0.475);
+    border-bottom-left-radius:  10px;
+    border-top-right-radius: 10px;
+}
+
+main h2 {
+    background-color: #BF8D;
+    color: #8C5A4F;
+}
+
+main > p {
+    text-align: justify;
+}
+
+div {
+    
+}
+
+footer {
+    box-shadow: 0px 0px 10px;
+    text-decoration: solid;
+}
+
+footer > p {
+    text-align: center;
+    background-color: #2E9AA6;
+    padding: 10px;
+}
